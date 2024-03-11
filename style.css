@@ -1,0 +1,128 @@
+header{
+    background-color: rgb(25, 17, 61);
+    height: 270px;
+    color: white;
+    
+}
+body{
+    background-color: black;
+    margin-left:200px;
+    margin-right: 200px;
+    
+}
+
+#main{
+    position: relative;
+    top: -140px;
+    left: 400px;
+    width: 300px;
+    height: 150px;
+    margin-left: 20px;
+}
+
+.upper{
+    background-color: rgb(25, 17, 61);
+    line-height: 100%;
+    height:150px;
+    width: 300px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+#up{
+    position:relative;
+    top:-160px;
+    border-radius:99px;
+    padding: 5px 10px;
+    background: darkblue;
+    border: 1px solid yellow;
+    color: white;
+}
+button:hover {
+background-color:rgb(134, 136, 13);
+}
+button:active {
+    transform:translateY(2px);
+}
+.middle{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+h2{
+    
+    text-align: center;
+    color:rgb(20, 12, 78);
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    position: relative;
+    left:350px;
+    top:-90px;
+}
+
+
+.porsche{
+    margin-top: 10px;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    left: -150px;
+
+}
+
+.lower{
+    background-color:#a8a8ad;
+    padding: 50px;
+    text-align: center;
+    font-style: italic;
+
+}
+.quote{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+footer{
+    background-color: rgb(255, 255, 255);
+    padding-top: 50px;
+
+}
+
+.cookie{
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    padding-left:35px;
+    padding-top: 10px;
+    margin-right:150px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+
+}
+#low{
+    position: relative;
+    left:600px;
+    background: blue;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    top:-50px;
+    font-size: larger;
+}
+#big{
+    font-size: larger;
+    font-weight: bold;
+}
+.credit{
+    background-color: rgb(25, 17, 61);
+    text-align: center;
+    color:white;
+    line-height: 0.75;
+    padding: 5px;
+
+}
